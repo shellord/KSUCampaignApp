@@ -16,8 +16,7 @@
   <!--     Fonts and icons     -->
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Manjari&display=swap" rel="stylesheet"
-  <!-- CSS Files -->
+<link href="https://fonts.googleapis.com/css2?family=Manjari&display=swap" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
   <link href="assets/css/gsdk-bootstrap-wizard.css" rel="stylesheet" />
 
@@ -323,15 +322,15 @@ font-size: 18px !important;
         var a = document.getElementById("Canvatext");
         var atz = a.getContext("2d");
 
-        atz.drawImage(img, 10, 10, 1000,1000);
+         atz.drawImage(img, 10, 10, 1000,1000);
         img1.onload = function () {
 
 
-          atz.drawImage(img1, 289, 770, 140,140);
+          atz.drawImage(img1, 289, 630, 240,240);
           atz.font = "900 38px 'Roboto', sans-serif";
           atz.fillStyle = " black";
           atz.color = "black";
-          atz.fillText(yn,460,855);
+          atz.fillText(yn,560,755);
            download();
         }
         img1.src=resp;
